@@ -1,0 +1,111 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f4f6;
+    color: #333;
+}
+
+header {
+    background-color: #1e2b49;
+    color: white;
+    text-align: center;
+    padding: 37px 15px;
+    margin: 15px;
+    border-radius: 6px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 22px;
+}
+
+header p {
+    font-size: 17px;
+}
+
+section {
+    margin: 15px;
+    padding: 24px 18px;
+    border-radius: 9px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+}
+
+h2 {
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 17px;
+}
+
+.intro {
+    background-color: white;
+    text-align: center;
+    padding: 24px 15px 35px;
+}
+
+.intro h2 {
+    color: green;
+}
+
+.intro p {
+    color: #555;
+    font-size: 14px;
+}
+
+.steps {
+    background-color: #75f5d1;
+    padding: 24px 18px;
+}
+
+.steps h2 {
+    color: green;
+}
+
+.results {
+    background-color: #ffe3c1;
+    padding: 24px 18px;
+}
+
+.results h2 {
+    color: red;
+}
+
+.results p {
+    text-align: center;
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 17px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    border-left: 3px solid #008cff;
+    padding: 11px 8px;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.steps li:nth-child(2) {
+    color: #008cff;
+}
+
+.steps li:nth-child(3) {
+    color: green;
+}
+
+footer {
+    background-color: #1e2b49;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    border-radius: 6px;
+    font-size: 13px;
+}
